@@ -19,17 +19,17 @@
     <img src="Captura_de_Tela__2_-removebg-preview (1).png" class="logo" alt="">
   </nav>
  </header>
- <div class="topo d-flex justify-content-around">
-  <div class="text-start" style="width: 800px;">
-    <h1>Projeto</h1>
-    <p class="text-break mt-4" style="font-weight: 600; text-align:justify;">O projeto consiste em um Software de Cafeteria utilizando árvores de decisão para identificar o café ideal para o cliente, conforme os gostos do mesmo. Dispondo das operações de criação e consulta, o algoritmo desenvolvido na linguagem de programação C ajuda o consumidor a não errar na escolha da bebida e a masterizar a sua satisfação ao consumi-la.
+ <div class="topo d-flex justify-content-around flex-wrap">
+  <div class=" text-start" style="width: 800px;">
+    <h1 class="texto">Projeto</h1>
+    <p class="texto text-break mt-4" style="font-weight: 600; text-align:justify;">O projeto consiste em um Software de Cafeteria utilizando árvores de decisão para identificar o café ideal para o cliente, conforme os gostos do mesmo. Dispondo das operações de criação e consulta, o algoritmo desenvolvido na linguagem de programação C ajuda o consumidor a não errar na escolha da bebida e a masterizar a sua satisfação ao consumi-la.
     </p>
-    <figcaption class="blockquote-footer mt-3">
+    <figcaption class="texto2 blockquote-footer mt-3">
        <cite title="Source Title">CafeOcho</cite>
     </figcaption>
 
   </div>
- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="width: 500px; float: right;">
+ <div id="carouselExampleIndicators" class="carro carousel slide" data-bs-ride="carousel" style="width: 500px; float: right;">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -59,7 +59,7 @@
 </div>
 
 <div class="cards">
-<div class=" kk bg-light d-flex gap-5 justify-content-center align-items-center" style="width: 75%; height: 200px; margin: auto; height: 70vh;">
+<div class="kk d-flex gap-5 justify-content-center align-items-center flex-wrap" style="width: 75%; height: 200px; margin: auto; height: 70vh;">
 
   <div class="card" style="width: 18rem;">
     <img src="pexels-engin-akyurt-2299028.jpg" class="card-img-top" alt="...">
@@ -248,17 +248,58 @@ font-size: 30px;
   color: rgb(94, 94, 94);
 }
 
+.kk{
+  background-color: white;
+}
+
 a{
   text-decoration: none;
 }
 
-@media(max-width:1440) {
+@media(max-width:1440px) {
   footer{
     height: 50px;
   }
 
-  body{
-    height: 100vh;
+ 
+}
+
+@media (max-width:1279px){
+  .kk{
+    background-color: transparent;
+  }
+ 
+
+  video{
+    margin-top: 400px;
+  }
+}
+
+@media (max-width:831px){
+
+  video{
+    margin-top: 800px;
+  }
+}
+
+@media (max-width:790px){
+
+.texto{
+  width: 500px;
+  margin: auto;
+}
+
+.texto2{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+@media (max-width:510px){
+
+  .carro{
+    width: 50px;
   }
 }
 </style>
